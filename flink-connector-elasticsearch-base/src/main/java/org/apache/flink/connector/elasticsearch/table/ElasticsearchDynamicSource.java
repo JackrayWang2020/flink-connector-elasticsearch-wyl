@@ -53,10 +53,10 @@ import static org.apache.flink.util.Preconditions.checkNotNull;
 @Internal
 class ElasticsearchDynamicSource implements DynamicTableSource {
 
+
     @Override
     public DynamicTableSource copy() {
-
-        return null;
+        return new ElasticsearchDynamicSource();
     }
 
     @Override

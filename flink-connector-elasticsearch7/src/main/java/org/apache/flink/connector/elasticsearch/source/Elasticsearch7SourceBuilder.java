@@ -21,7 +21,7 @@ import org.apache.flink.annotation.PublicEvolving;
 
 
 @PublicEvolving
-public class Elasticsearch7SinkBuilder<IN> {
+public class Elasticsearch7SourceBuilder<IN> {
 
     public void ss() {
         System.out.printf("这是一个简单的小情歌");
